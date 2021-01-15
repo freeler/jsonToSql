@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/mBtnPick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="请选取json文件" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <TextView
+            android:id="@+id/mTvJson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="" />
+    </ScrollView>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/mBtnOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="导出为数据库文件" />
+
+
+</LinearLayout>
