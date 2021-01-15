@@ -41,6 +41,6 @@
         <storage value="external" />
     -->
 
-    <storage value="internal" />
+    <storage value="external" />
 
 </litepal>

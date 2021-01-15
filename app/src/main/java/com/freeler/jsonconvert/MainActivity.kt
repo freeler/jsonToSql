@@ -89,7 +89,7 @@ class MainActivity : AppCompatActivity() {
             LitePal.deleteAll<TikuNet>()
             LitePal.saveAll(tikuNetList)
             runOnUiThread {
-                Toast.makeText(this, "TikuNet转换成功，共${tikuNetList.size}条", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "TikuNet转换成功，选择题共${tikuNetList.size}条", Toast.LENGTH_SHORT).show()
             }
         }
 
@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity() {
             LitePal.deleteAll<Tiku>()
             LitePal.saveAll(tikuList)
             runOnUiThread {
-                Toast.makeText(this, "Tiku转换成功，共${tikuList.size}条", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Tiku转换成功，简单题共${tikuList.size}条", Toast.LENGTH_SHORT).show()
             }
         }
 
